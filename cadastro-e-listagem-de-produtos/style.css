@@ -1,0 +1,44 @@
+
+h1{
+    text-align: center;
+    margin: 1em 0;
+}
+
+/*Estilizando formulário*/
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.add-product-form {
+    border: 2px solid #444;
+    background-color: #bdd;
+    border-radius: 5px;
+    padding: 1em;
+    max-width: 400px;
+    width: 60%;
+}
+.add-product-form .form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.add-product-form button{
+    padding: 0.5em;
+}
+/*Estilizando lista*/
+#products-list{
+    background-color: #ddd;
+    min-width: 400px;
+    width: 60%;
+}
+#products-list th{
+    background-color: #444;
+    color: #fff;
+    padding: 8px;
+}
+#products-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }

@@ -11,7 +11,7 @@ function getTime(){
 
 	secondsHand.style.transform = `rotate(${second * 6}deg)`
 	minutesHand.style.transform = `rotate(${minute * 6}deg)`
-	hoursHand.style.transform = `rotate(${hour * 30}deg)`
+	hoursHand.style.transform = `rotate(${(hour * 30) + minute / 2}deg)`
 }
 setInterval(getTime, 100)
 

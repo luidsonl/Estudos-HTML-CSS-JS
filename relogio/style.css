@@ -16,7 +16,6 @@ body{
 	border-radius: 100%;
 	position: absolute;
 }
-
 #seconds-hand{
 	position: absolute;
 	bottom: 50%;
@@ -43,4 +42,15 @@ body{
 	width: 8px;
 	background-color: #3a3;
 	transform-origin: 0 100%;
+}
+
+#clock-center{
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background-color: #aaa;
+	transform: translate(-15px, 15px);
 }

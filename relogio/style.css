@@ -20,7 +20,7 @@ body{
 	position: absolute;
 	bottom: 50%;
 	left: 50%;
-	height: 175px;
+	height: 150px;
 	width: 3px;
 	background-color: #a33;
 	transform-origin: 0 100%;
@@ -29,7 +29,7 @@ body{
 	position: absolute;
 	bottom: 50%;
 	left: 50%;
-	height: 150px;
+	height: 135px;
 	width: 6px;
 	background-color: #33a;
 	transform-origin: 0 100%;
@@ -48,9 +48,17 @@ body{
 	position: absolute;
 	bottom: 50%;
 	left: 50%;
-	width: 30px;
-	height: 30px;
+	width: 15px;
+	height: 15px;
 	border-radius: 100%;
 	background-color: #aaa;
-	transform: translate(-15px, 15px);
+	transform: translate(-7.5px, 7.5px);
+}
+#markers > *{
+	color: #aaa;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	height: 150px;
+	transform-origin: 0 100%;
 }

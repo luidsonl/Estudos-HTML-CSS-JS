@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.hide{
+	display: none;
+}
+h1{
+	text-align: center;
+}
+body{
+	min-height: 100vh;
+	background-color: #ddd;
+	padding: 30px;
+}
+/*Página home*/
+#posts-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	max-width: 2800px;
+}
+#posts-container img{
+	max-width:100%;
+}
+#posts-container .post-card{
+	background-color: #fff;
+	margin: 30px;
+	padding: 15px;
+}

@@ -3,3 +3,5 @@
 [Cadastro e Listagem de Produtos](cadastro-e-listagem-de-produtos)
 
 [Relógio Analógico](relogio)
+
+[Fetch - API](fetch-api)

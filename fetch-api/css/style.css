@@ -27,3 +27,45 @@ body{
 	margin: 30px;
 	padding: 15px;
 }
+/*Página do post*/
+.container{
+	display: flex;
+	flex-direction: column;
+}
+#post-container{
+	display: flex;
+	flex-direction: column;
+}
+#post-container img{
+	max-width: 400px;
+}
+#post-container img, #post-container p{
+	margin: 15px;
+}
+
+#comment-form{
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	padding: 15px;
+	background-color: #f0f0f0;
+	margin: 25px;
+	display: flex;
+	flex-direction: column;
+	min-width: 250px;
+}
+#comment-form{
+	width: 80%;
+	max-width: 400px;
+}
+#comment-form .form-control{
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+}
+#comments-container .comment-card{
+	margin: 15px;
+}
+.comment-email{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
